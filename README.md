@@ -59,7 +59,8 @@ src/
     ├── config/          # Database Connection Setup
     ├── enums/           # Constants
     └── OrderManagementSystem.java   # Main Entry Point
-
+```
+---
 
 ## 🚀 Getting Started
 
@@ -68,13 +69,14 @@ src/
 - MySQL Server
 - Maven
 
-### 2️⃣ Clone Repository
+## 2️⃣ Clone Repository
 ```bash
 git clone https://github.com/your-username/order-management-system.git
 cd order-management-system
+```
 
-
-### 3️⃣ Database Setup
+## 3️⃣ Database Setup
+```bash
 CREATE DATABASE order_db;
 
 USE order_db;
@@ -107,27 +109,35 @@ CREATE TABLE order_items (
     FOREIGN KEY (order_id) REFERENCES orders(order_id),
     FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
+```
 
 
-### 4️⃣ Update DB Connection
+## 4️⃣ Update DB Connection
+```bash
 String url = "jdbc:mysql://localhost:3306/order_db";
 String username = "root";
 String password = "your_password";
+```
 
+---
 
-### 💡 Usage
+## 💡 Usage
+```bash
 mvn clean compile
 java -cp target/classes org.example.Order_Management_System.OrderManagementSystem
+```
 
+---
 
-### 🧱 Database Schema (ERD)
+## 🧱 Database Schema (ERD)
 CUSTOMERS ─────┐
                │
                ▼
              ORDERS ─────► ORDER_ITEMS ◄───── PRODUCTS
 
+---
 
-### 🧑‍💻 Author
+## 🧑‍💻 Author
 GitHub: @Sujal-Soni
 LinkedIn: https://www.linkedin.com/in/sujal-soni-240661240/
 
