@@ -16,9 +16,7 @@ A simple **console-based Java application** that allows customers to register, l
 - [📁 Project Structure](#-project-structure)
 - [🚀 Getting Started](#-getting-started)
 - [💡 Usage](#-usage)
-- [🧱 Database Schema](#-database-schema)
-- [🔮 Future Improvements](#-future-improvements)
-- [📜 License](#-license)
+- [🧱 Database Schema](#-database-schema-erd)
 - [👨‍💻 Author](#-author)
 
 ---
@@ -138,7 +136,7 @@ CUSTOMERS ─────┐
 ---
 
 ## 🧑‍💻 Author
-GitHub: @Sujal-Soni
+GitHub: @SoniSujal
 LinkedIn: https://www.linkedin.com/in/sujal-soni-240661240/
 
 
